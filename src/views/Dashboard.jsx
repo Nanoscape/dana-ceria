@@ -1,6 +1,14 @@
-import React, { Component } from 'react';
-import { LogoHeader } from '../assets';
-import '../assets/css/dashboard.css';
+import React, { Component } from "react";
+import {
+  BgHero,
+  LogoHeader,
+  ImgCardCar,
+  ImgCardBus,
+  ImgCardNew,
+  ImgCardUsed,
+} from "../assets";
+import "../assets/css/dashboard.css";
+import RoundedBg from "../component/RoundedBg.jsx";
 
 export default class Dashboard extends Component {
   render() {
@@ -11,41 +19,65 @@ export default class Dashboard extends Component {
             <a href="/#" className="nav__logo">
               <img src={LogoHeader} alt="Logo" className="nav__logoimg" />
             </a>
-            <ul class="nav__list">
-              <li class="nav__item">
-                <a href="/#" class="nav__link">
+            <ul className="nav__list">
+              <li className="nav__item">
+                <a href="/#" className="nav__link">
                   Home
                 </a>
               </li>
-              <li class="nav__item">
-                <a href="/#" class="nav__link">
+              <li className="nav__item">
+                <a href="/#" className="nav__link">
                   Tentang Dana Ceria
                 </a>
               </li>
-              <li class="nav__item">
-                <a href="/#" class="nav__link">
+              <li className="nav__item">
+                <a href="/#" className="nav__link">
                   Produk Kami
                 </a>
               </li>
-              <li class="nav__item">
-                <a href="/#" class="nav__link">
+              <li className="nav__item">
+                <a href="/#" className="nav__link">
                   Mitra Kami
                 </a>
               </li>
-              <li class="nav__item">
-                <a href="/#" class="nav__link">
+              <li className="nav__item">
+                <a href="/#" className="nav__link">
                   Agent Dana Ceria
                 </a>
               </li>
             </ul>
           </nav>
         </header>
-        <div className="section__hero"></div>
-        <div className="section__content">
-        <h2>Produk Kami</h2>
+
+        <div className="section__hero">
+          <div className="hero_row">
+            <div className="left_word">
+              <h1>
+                Platform <p className="word_inside_left">Dana Pinjaman</p>{" "}
+                Agunan BPKP & Kredit Mobil Baru/Bekas Mudah dan Cepat
+              </h1>
+              <p>
+                Proses dibantu sampai <span className="word_bg">Disetujui</span>{" "}
+                dan <span className="word_bg">Cair</span>
+              </p>
+            </div>
+            <div>
+              <img src={BgHero} height="150%" width="150%" alt="" />
+            </div>
+          </div>
+        </div>
+        <div className="section">
+          <div className="header-section">
+            <h2>Produk Kami</h2>
+          </div>
+          <div className="section__content">
+            <RoundedBg src={ImgCardCar} text="Pinjaman BPKB Mobil" />
+            <RoundedBg src={ImgCardBus} text="Pinjaman BPKB Motor" />
+            <RoundedBg src={ImgCardNew} text="Pinjaman Mobil Baru" />
+            <RoundedBg src={ImgCardUsed} text="Pinjaman Mobil Bekas" />
+          </div>
         </div>
       </div>
-
     );
   }
 }
