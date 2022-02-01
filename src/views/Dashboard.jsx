@@ -20,51 +20,44 @@ export default class Dashboard extends Component {
               <img src={LogoHeader} alt="Logo" className="nav__logoimg" />
             </a>
             <ul className="nav__list">
-              <li className="nav__item">
-                <a href="/#" className="nav__link">
+              <li class="nav__item">
+                <a href="/#" class="nav__link">
                   Home
                 </a>
               </li>
               <li className="nav__item">
-                <a href="/#" className="nav__link">
+                <a href="/#" class="nav__link">
                   Tentang Dana Ceria
                 </a>
               </li>
               <li className="nav__item">
-                <a href="/#" className="nav__link">
+                <a href="/#" class="nav__link">
                   Produk Kami
                 </a>
               </li>
               <li className="nav__item">
-                <a href="/#" className="nav__link">
+                <a href="/#" class="nav__link">
                   Mitra Kami
                 </a>
               </li>
               <li className="nav__item">
-                <a href="/#" className="nav__link">
+                <a href="/#" class="nav__link">
                   Agent Dana Ceria
                 </a>
               </li>
             </ul>
           </nav>
         </header>
-
         <div className="section__hero">
-          <div className="hero_row">
-            <div className="left_word">
-              <h1>
-                Platform <p className="word_inside_left">Dana Pinjaman</p>{" "}
-                Agunan BPKP & Kredit Mobil Baru/Bekas Mudah dan Cepat
-              </h1>
-              <p>
-                Proses dibantu sampai <span className="word_bg">Disetujui</span>{" "}
-                dan <span className="word_bg">Cair</span>
-              </p>
-            </div>
-            <div>
-              <img src={BgHero} height="150%" width="150%" alt="" />
-            </div>
+          <div className="desc-hero-wrapper">
+            <h2 className="desc-hero">
+              Platform <span className="desc-hero txt-yellow">Dana Pinjaman</span> Agunan BPKB & Kredit Mobil Baru/Bekas Mudah dan Cepat
+            </h2>
+            <h4 className="desc-down-hero">
+              Proses dibantu sampai <span className="desc-down-hero border-yellow">Disetujui</span> dan <span className="desc-down-hero border-yellow">Cair</span>
+            </h4>
           </div>
+          <img src={BgHero} alt="Background Hero" className="img-hero" />
         </div>
         <div className="section">
           <div className="header-section">

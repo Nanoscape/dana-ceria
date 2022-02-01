@@ -81,25 +81,14 @@ button {
 .section__hero {
   background: linear-gradient(180deg, #6be2e6 0%, #107096 100%);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  min-height: 100vh;
-  /* height: 618px; */
-  width: 100vw;
+  height: 778px;
   padding: 0 65px;
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 
-.hero_row {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  width: 100%;
-}
-
-.left_word {
-  width: 50%;
+.desc-hero-wrapper {
   display: flex;
   flex-direction: column;
 }
@@ -108,8 +97,7 @@ button {
 h1 {
   font-size: 45px;
   font-weight: 700;
-  color: #ffffff;
-  margin-bottom: 20px;
+  font-size: 30px;
 }
 
 .left_word,
@@ -119,17 +107,15 @@ p {
   line-height: 1.5;
 }
 
-.word_inside_left {
-  font-size: 45px;
-  font-weight: 700;
-  color: #f6fa35;
-  margin-bottom: 20px;
-  display: inline;
+.desc-down-hero {
+  color: white;
+  font-weight: 400;
+  font-size: 20px;
+  margin-top: 20px;
 }
 
-.word_bg {
+.border-yellow {
   background-color: #f6fa35;
-  padding: 7px;
   color: #107096;
 }
 
