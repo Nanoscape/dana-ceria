@@ -81,9 +81,38 @@ button {
 .section__hero {
   background: linear-gradient(180deg, #6be2e6 0%, #107096 100%);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  height: 618px;
+  height: 778px;
   padding: 0 65px;
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+
+.desc-hero-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.desc-hero {
+  color: white;
+  font-weight: 700;
+  font-size: 30px;
+}
+
+.txt-yellow {
+  color: #f6fa35;
+}
+
+.desc-down-hero {
+  color: white;
+  font-weight: 400;
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+.border-yellow {
+  background-color: #f6fa35;
+  color: #107096;
+  font-weight: 700;
+  padding: 6px 22px;
 }
