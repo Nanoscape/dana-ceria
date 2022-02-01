@@ -41,7 +41,11 @@ export default class Dashboard extends Component {
           </nav>
         </header>
         <div className="section__hero"></div>
+        <div className="section__content">
+        <h2>Produk Kami</h2>
+        </div>
       </div>
+
     );
   }
 }
