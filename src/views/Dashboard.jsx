@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { LogoHeader } from '../assets';
+import { BgHero, LogoHeader } from '../assets';
 import '../assets/css/dashboard.css';
 
 export default class Dashboard extends Component {
@@ -40,7 +40,17 @@ export default class Dashboard extends Component {
             </ul>
           </nav>
         </header>
-        <div className="section__hero"></div>
+        <div className="section__hero">
+          <div className='hero_row'>
+            <div className='left_word'>
+              <h1>Platform <p className='word_inside_left'>Dana Pinjaman</p> Agunan BPKP & Kredit Mobil Baru/Bekas Mudah dan Cepat</h1>
+              <p>Proses dibantu sampai <span className='word_bg'>Disetujui</span> dan <span className='word_bg'>Cair</span></p>
+            </div>
+            <div>
+              <img src={BgHero} height="150%" width="150%" alt="" />
+            </div>
+          </div>
+        </div>
       </div>
     );
   }
