@@ -1,11 +1,11 @@
 import './App.css';
 import { Routes, Route } from 'react-router-dom';
-import Main from './views/Main';
+import { Dashboard } from './views';
 
 function App() {
   return (
     <Routes>
-      <Route path="/" element={<Main />} />
+      <Route path="/" element={<Dashboard />} />
     </Routes>
   );
 }
