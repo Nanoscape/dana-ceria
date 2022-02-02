@@ -77,10 +77,15 @@ button {
   color: #107096;
 }
 
+.active {
+  color: #107096;
+  font-weight: 900;
+}
+
 /* Section Hero */
 .section__hero {
   background: linear-gradient(180deg, #6be2e6 0%, #107096 100%);
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  box-shadow: 0px 4px 5px 0px rgba(0, 0, 0, 0.75);
   height: 778px;
   padding: 0 65px;
   display: flex;
@@ -117,6 +122,57 @@ button {
   padding: 6px 22px;
 }
 
-.img-hero {
-  width: 100%;
+/* Wrapper */
+.wrapper {
+  background-color: #e6f6f6;
+  padding: 40px 80px;
+}
+
+/* Section About */
+.section-about {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 90px;
+  margin-top: 20px;
+}
+
+.title-about {
+  font-size: 34px;
+  font-weight: bold;
+  color: black;
+  margin-bottom: 25px;
+}
+
+.img-about {
+  height: 60px;
+  margin-bottom: 25px;
+}
+
+.desc-about {
+  font-size: 24px;
+  font-weight: 400;
+  color: black;
+}
+
+.txt-blue {
+  color: #107096;
+  font-weight: 600;
+}
+
+/* Section Our Product */
+.title-product {
+  font-size: 34px;
+  font-weight: bold;
+  color: black;
+  margin-bottom: 45px;
+  text-align: center;
+}
+
+.section-product {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
 }
