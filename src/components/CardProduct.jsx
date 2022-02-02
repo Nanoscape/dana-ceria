@@ -1,5 +1,4 @@
 import React from 'react';
-import '../assets/css/cardproduct.css';
 
 export default function CardProduct({ src, text }) {
   return (

@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import { LogoHeader, BgHero, ImgCardCar, ImgCardBus, ImgCardNew, ImgCardUsed } from '../assets';
+import { LogoHeader, BgHero, ImgCardCar, ImgCardBus, ImgCardNew, ImgCardUsed, ImgBuilding, ImgRequest, ImgServer, ImgPrice } from '../assets';
 import '../assets/css/dashboard.css';
-import CardProduct from '../components/CardProduct';
+import { CardFaq, CardProduct } from '../components';
 
 export default class Dashboard extends Component {
   render() {
@@ -75,6 +75,20 @@ export default class Dashboard extends Component {
             <CardProduct src={ImgCardBus} text="Pinjaman BPKB Motor" />
             <CardProduct src={ImgCardNew} text="Pinjaman Mobil Baru" />
             <CardProduct src={ImgCardUsed} text="Pinjaman Mobil Bekas" />
+          </div>
+          {/* FAQ Dana Ceria */}
+          <h2 className="title-faq">Mengapa harus melalui Dana Ceria?</h2>
+          <div className="section-faq">
+            <div className="retangle-bg-primary">
+              <div className="border-rounded-primary">
+                <img src={ImgServer} alt="Card FAQ" className="retangle-img" />
+              </div>
+              <h2 className="text-title-faq-primary">Proses mudah dan cepat</h2>
+              <div className="body-card-desc-faq">Cuman Butuh Waktu 10 Menit dan Foto Berkas Persyaratan Dana Langsung Cair</div>
+            </div>
+            <CardFaq src={ImgPrice} title="Di bantu cair sampai deal" desc="Kami Bantu Carikan Hitungan Yang Cocok Untuk Anda Sampai Deal" />
+            <CardFaq src={ImgBuilding} title="Banyak pilihan leasing" desc="Pilihan Leasing Terbanyak Di Indonesia dan Dipilihkan Leasing Yang Bisa Take Over" />
+            <CardFaq src={ImgRequest} title="Bunga Paling Rendah" desc="Dipilihkan Bunga Paling Rendah Hingga 0,8%  dan Dipilihkan Pencairan Paling Tinggi" />
           </div>
         </div>
       </div>

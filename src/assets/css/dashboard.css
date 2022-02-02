@@ -84,7 +84,7 @@ button {
 
 /* Section Hero */
 .section__hero {
-  background: linear-gradient(180deg, #6be2e6 0%, #107096 100%);
+  background-image: url('../images/bgjumbotron.png');
   box-shadow: 0px 4px 5px 0px rgba(0, 0, 0, 0.75);
   height: 778px;
   padding: 0 65px;
@@ -175,4 +175,130 @@ button {
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
+  margin-bottom: 110px;
+}
+
+.rounded-bg {
+  height: 220px;
+  width: 220px;
+  background-color: #ffffff;
+  border-radius: 50%;
+  border: 2px solid #107096;
+  box-shadow: 0px 4px 4px #107096, inset 0px 4px 4px #363a3b;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.rounded-img {
+  width: 60%;
+}
+
+.text-desc-rounded {
+  font-weight: 700;
+  font-size: 24px;
+  color: #107096;
+  margin-top: 20px;
+}
+
+/* Section FAQ */
+.title-faq {
+  font-size: 34px;
+  font-weight: bold;
+  color: black;
+  margin-bottom: 45px;
+  text-align: center;
+}
+
+.section-faq {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.retangle-bg-primary {
+  background: linear-gradient(121.98deg, #107096 -2.98%, #6be2e6 167.26%);
+  box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  padding: 20px 0;
+  width: 260px;
+  padding: 20px 0 50px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.border-rounded-primary {
+  width: 160px;
+  height: 160px;
+  background: linear-gradient(121.98deg, #107096 -2.98%, #6be2e6 167.26%);
+  border: 6px solid #f6fa35;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.text-title-faq-primary {
+  color: #f6fa35;
+  font-weight: 800;
+  font-size: 24px;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.body-card-desc-faq {
+  background-color: #ffffff;
+  font-weight: 600;
+  font-size: 18px;
+  color: #107096;
+  padding: 10px 25px;
+  text-align: center;
+  margin-top: 15px;
+}
+
+.retangle-img {
+  width: 50%;
+}
+
+.retangle-bg {
+  background-color: #ffffff;
+  box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  padding: 20px 0;
+  width: 260px;
+  padding: 20px 15px 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.border-rounded {
+  width: 160px;
+  height: 160px;
+  background-color: #107096;
+  border: none;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.text-title-faq {
+  color: #000000;
+  font-weight: 700;
+  font-size: 24px;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.text-desc-faq {
+  color: #000000;
+  font-weight: 400;
+  text-align: center;
+  font-size: 18px;
+  margin-top: 20px;
 }
