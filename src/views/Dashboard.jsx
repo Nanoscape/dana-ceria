@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { LogoHeader, BgHero, ImgCardCar, ImgCardBus, ImgCardNew, ImgCardUsed, ImgBuilding, ImgRequest, ImgServer, ImgPrice } from '../assets';
+import { LogoHeader, BgHero, ImgCardCar, ImgCardBus, ImgCardNew, ImgCardUsed, ImgBuilding, ImgRequest, ImgServer, ImgPrice, ImgPerson } from '../assets';
 import '../assets/css/dashboard.css';
 import { CardFaq, CardProduct } from '../components';
 
@@ -68,6 +68,7 @@ export default class Dashboard extends Component {
             </h2>
             <h2 className="desc-about">proses sampai di setujui.</h2>
           </div>
+
           {/* Our Product */}
           <h2 className="title-product">Produk Kami</h2>
           <div className="section-product">
@@ -76,6 +77,7 @@ export default class Dashboard extends Component {
             <CardProduct src={ImgCardNew} text="Pinjaman Mobil Baru" />
             <CardProduct src={ImgCardUsed} text="Pinjaman Mobil Bekas" />
           </div>
+
           {/* FAQ Dana Ceria */}
           <h2 className="title-faq">Mengapa harus melalui Dana Ceria?</h2>
           <div className="section-faq">
@@ -89,6 +91,21 @@ export default class Dashboard extends Component {
             <CardFaq src={ImgPrice} title="Di bantu cair sampai deal" desc="Kami Bantu Carikan Hitungan Yang Cocok Untuk Anda Sampai Deal" />
             <CardFaq src={ImgBuilding} title="Banyak pilihan leasing" desc="Pilihan Leasing Terbanyak Di Indonesia dan Dipilihkan Leasing Yang Bisa Take Over" />
             <CardFaq src={ImgRequest} title="Bunga Paling Rendah" desc="Dipilihkan Bunga Paling Rendah Hingga 0,8%  dan Dipilihkan Pencairan Paling Tinggi" />
+          </div>
+
+          {/* Apply for a Loan */}
+          <div className="box-loan">
+            <h2 className="title-loan">Tips Mengajukan Pinjaman Dana Agunan BPKB</h2>
+            <h2 className="title-loan1">Dana Agunan BPKB</h2>
+            <img className="img-loan" src={ImgPerson} alt="Person" />
+            <div className="card-loan-primary">
+              <div className="wrapper-first-letter-loan-primary">
+                <h1 className="first-letter-loan">1</h1>
+              </div>
+              <div className="second-letter-loan-primary">
+                <h3 className="tittle-second-letter-loan-primary">Tentukan tujuan pinjaman</h3>
+              </div>
+            </div>
           </div>
         </div>
       </div>

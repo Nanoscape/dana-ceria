@@ -9,4 +9,5 @@ import ImgBuilding from './images/building.png';
 import ImgPrice from './images/price.png';
 import ImgRequest from './images/request.png';
 import ImgServer from './images/server.png';
-export { Logo, LogoHeader, BgHero, ImgCardCar, ImgCardBus, ImgCardNew, ImgCardUsed, ImgBuilding, ImgRequest, ImgServer, ImgPrice };
+import ImgPerson from './images/person.png';
+export { Logo, LogoHeader, BgHero, ImgCardCar, ImgCardBus, ImgCardNew, ImgCardUsed, ImgBuilding, ImgRequest, ImgServer, ImgPrice, ImgPerson };

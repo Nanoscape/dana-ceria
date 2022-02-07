@@ -215,6 +215,7 @@ button {
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
+  margin-bottom: 90px;
 }
 
 .retangle-bg-primary {
@@ -301,4 +302,46 @@ button {
   text-align: center;
   font-size: 18px;
   margin-top: 20px;
+}
+
+/* Section Loan */
+.box-loan {
+  height: 769px;
+  background: linear-gradient(180deg, #107096 -11.05%, #187a9d -11.05%, #6be2e6 109.62%);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  padding: 55px 35px 0;
+  position: relative;
+  overflow: hidden;
+}
+
+.title-loan {
+  font-size: 26px;
+  font-weight: bold;
+  color: #ffffff;
+  margin-bottom: 5px;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.title-loan1 {
+  font-size: 26px;
+  font-weight: bold;
+  color: #ffffff;
+  margin-bottom: 45px;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.img-loan {
+  position: absolute;
+  bottom: 0;
+  right: 20px;
+  height: 487px;
+}
+
+.card-loan-primary {
+  background-color: #107096;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  width: 587px;
 }
