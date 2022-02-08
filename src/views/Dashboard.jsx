@@ -103,7 +103,33 @@ export default class Dashboard extends Component {
                 <h1 className="first-letter-loan">1</h1>
               </div>
               <div className="second-letter-loan-primary">
-                <h3 className="tittle-second-letter-loan-primary">Tentukan tujuan pinjaman</h3>
+                <h3 className="title-second-letter-loan-primary">Tentukan tujuan pinjaman</h3>
+                <h3 className="title-second-letter-loan-primary1">Kamu harus tentukan tujuan pinjaman dana kamu untuk kebutuan usaha, modal usaha, biaya pendidikan, atau biaya pernikahan. Jangan di pakai untuk berfoya - foya</h3>
+              </div>
+            </div>
+
+            <div className="card-loan">
+              <div className="wrapper-first-letter-loan">
+                <h1 className="first-letter-loan">2</h1>
+              </div>
+              <div className="second-letter-loan">
+                <h3 className="title-second-letter-loan">Pahami Syarat dan Ketentuan</h3>
+                <h3 className="title-second-letter-loan1">Setiap lembaga keuangan memiliki syarat syarat yang harus dilampirkan pada saat pengajuan. apa aja sih syaratnya?</h3>
+                <a href="/#" className="title-second-letter-loan2">
+                  klik disini
+                </a>
+              </div>
+            </div>
+
+            <div className="card-loan">
+              <div className="wrapper-first-letter-loan1">
+                <h1 className="first-letter-loan">3</h1>
+              </div>
+              <div className="second-letter-loan">
+                <h3 className="title-second-letter-loan">Pilih Leasing Terpercaya</h3>
+                <h3 className="title-second-letter-loan1">
+                  Pastikan leasing/lembaga keuangan tempat kamu mengajukan aman dan terpercaya dan sudah terdaftar oleh OJK sehingga kamu dapat perlindungan hukum jika terjadi sesuatu yang tidak di inginkan
+                </h3>
               </div>
             </div>
           </div>
