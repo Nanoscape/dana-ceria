@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { LogoHeader, BgHero, ImgCardCar, ImgCardBus, ImgCardNew, ImgCardUsed, ImgBuilding, ImgRequest, ImgServer, ImgPrice, ImgPerson } from '../assets';
+import { LogoHeader, BgHero, ImgCardCar, ImgCardBus, ImgCardNew, ImgCardUsed, ImgBuilding, ImgRequest, ImgServer, ImgPrice, ImgPerson, ImgBannerDown } from '../assets';
 import '../assets/css/dashboard.css';
 import { CardFaq, CardProduct } from '../components';
 
@@ -133,7 +133,74 @@ export default class Dashboard extends Component {
               </div>
             </div>
           </div>
+
+          {/* Section Condition */}
+          <div className="section-condition">
+            <h2 className="title-condition">persyaratan mengajukan pinjaman di Dana Ceria</h2>
+            <div className="container-condition">
+              <div className="box-condition-car">
+                <h2 className="title-box-condition">Pinjaman jaminan BPKB mobil</h2>
+                <div className="align-text-condition">
+                  <i class="bx bx-check bx-md check-green"></i>
+                  <span className="desc-box-condition">KTP</span>
+                </div>
+                <div className="align-text-condition">
+                  <i class="bx bx-check bx-md check-green"></i>
+                  <span className="desc-box-condition">KTP Pasangan (jika ada)</span>
+                </div>
+                <div className="align-text-condition">
+                  <i class="bx bx-check bx-md check-green"></i>
+                  <span className="desc-box-condition">Kartu Keluarga</span>
+                </div>
+                <div className="align-text-condition">
+                  <i class="bx bx-check bx-md check-green"></i>
+                  <span className="desc-box-condition">NPWP</span>
+                </div>
+                <div className="align-text-condition">
+                  <i class="bx bx-check bx-md check-green"></i>
+                  <span className="desc-box-condition">PBB/Surat Kepemilikan Rumah</span>
+                </div>
+                <div className="align-text-condition">
+                  <i class="bx bx-check bx-md check-green"></i>
+                  <span className="desc-box-condition">Slip Gaji(Karyawan)</span>
+                </div>
+                <div className="align-text-condition">
+                  <i class="bx bx-check bx-md check-green"></i>
+                  <span className="desc-box-condition">Surat Keterangan Usaha</span>
+                </div>
+                <div className="align-text-condition">
+                  <i class="bx bx-check bx-md check-green"></i>
+                  <span className="desc-box-condition">Rekening Korang 3 Bulan terakhir</span>
+                </div>
+              </div>
+              <div className="box-condition-motocycle">
+                <h2 className="title-box-condition">Pinjaman jaminan BPKB motor</h2>
+                <div className="align-text-condition">
+                  <i class="bx bx-check bx-md check-green"></i>
+                  <span className="desc-box-condition">KTP</span>
+                </div>
+                <div className="align-text-condition">
+                  <i class="bx bx-check bx-md check-green"></i>
+                  <span className="desc-box-condition">KTP Pasangan (jika ada)</span>
+                </div>
+                <div className="align-text-condition">
+                  <i class="bx bx-check bx-md check-green"></i>
+                  <span className="desc-box-condition">Kartu Keluarga</span>
+                </div>
+                <div className="align-text-condition">
+                  <i class="bx bx-check bx-md check-green"></i>
+                  <span className="desc-box-condition">Rekening Listrik</span>
+                </div>
+                <div className="align-text-condition">
+                  <i class="bx bx-check bx-md check-green"></i>
+                  <span className="desc-box-condition">Slip Gaji(Karyawan)</span>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
+        {/* Image Banner Down */}
+        <img src={ImgBannerDown} alt="Banner Cicilan" />
       </div>
     );
   }

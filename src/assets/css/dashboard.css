@@ -135,7 +135,6 @@ button {
   align-items: center;
   flex-direction: column;
   margin-bottom: 90px;
-  margin-top: 20px;
 }
 
 .title-about {
@@ -445,4 +444,68 @@ button {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+/* Section Condition */
+.section-condition {
+  margin-top: 110px;
+}
+
+.title-condition {
+  font-size: 26px;
+  font-weight: bold;
+  color: #107096;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.container-condition {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.box-condition-car {
+  flex: 50%;
+  background: #ffffff;
+  border-radius: 20px;
+  height: 521px;
+  max-width: 515px;
+  padding: 60px 45px 35px 45px;
+}
+
+.box-condition-motocycle {
+  flex: 50%;
+  background: #ffffff;
+  border-radius: 20px;
+  height: 521px;
+  max-width: 515px;
+  padding: 60px 45px 35px 45px;
+}
+
+.title-box-condition {
+  color: #000000;
+  font-weight: 600;
+  font-size: 26px;
+  text-align: center;
+  border-bottom: 5px solid #107096;
+  line-height: 55px;
+  margin-bottom: 15px;
+}
+
+.align-text-condition {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.desc-box-condition {
+  color: #107096;
+  font-weight: 400;
+  font-size: 22px;
+  margin-left: 15px;
+}
+
+.check-green {
+  color: #1ccf23;
 }

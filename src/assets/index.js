@@ -10,4 +10,5 @@ import ImgPrice from './images/price.png';
 import ImgRequest from './images/request.png';
 import ImgServer from './images/server.png';
 import ImgPerson from './images/person.png';
-export { Logo, LogoHeader, BgHero, ImgCardCar, ImgCardBus, ImgCardNew, ImgCardUsed, ImgBuilding, ImgRequest, ImgServer, ImgPrice, ImgPerson };
+import ImgBannerDown from './images/banner-down.png';
+export { Logo, LogoHeader, BgHero, ImgCardCar, ImgCardBus, ImgCardNew, ImgCardUsed, ImgBuilding, ImgRequest, ImgServer, ImgPrice, ImgPerson, ImgBannerDown };
