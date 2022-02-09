@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { LogoHeader, BgHero, ImgCardCar, ImgCardBus, ImgCardNew, ImgCardUsed, ImgBuilding, ImgRequest, ImgServer, ImgPrice, ImgPerson, ImgBannerDown } from '../assets';
+import { LogoHeader, BgHero, ImgCardCar, ImgCardBus, ImgCardNew, ImgCardUsed, ImgBuilding, ImgRequest, ImgServer, ImgPrice, ImgPerson, ImgBannerDown, ImgFacebook, ImgInstagram, ImgYoutube } from '../assets';
 import '../assets/css/dashboard.css';
 import { CardFaq, CardProduct } from '../components';
 
@@ -201,6 +201,58 @@ export default class Dashboard extends Component {
         </div>
         {/* Image Banner Down */}
         <img src={ImgBannerDown} alt="Banner Cicilan" />
+        {/* Section Footer */}
+        <div className="section-footer">
+          <div className="container-footer">
+            <img src={LogoHeader} alt="Logo Dana Ceria" className="img-footer" />
+            <div className="footer-wrapper">
+              <h4 className="title-footer">Tentang</h4>
+              <a href="#/" className="desc-footer">
+                General
+              </a>
+              <a href="#/" className="desc-footer">
+                Kebijakan & Keamanan
+              </a>
+              <a href="#/" className="desc-footer">
+                Syarat & Ketentuan
+              </a>
+            </div>
+            <div className="footer-wrapper">
+              <h4 className="title-footer">Dana Ceria</h4>
+              <a href="#/" className="desc-footer">
+                Mitra Kami
+              </a>
+              <a href="#/" className="desc-footer">
+                Agen Kami
+              </a>
+              <a href="#/" className="desc-footer">
+                Tanya Kami
+              </a>
+            </div>
+            <div className="footer-wrapper">
+              <h4 className="title-footer">Kontak Kami</h4>
+              <h4 className="desc-footer">danaceria@gmail.com</h4>
+              <h4 className="desc-footer">+62 812-9061-0717</h4>
+              <h4 className="desc-footer">Greenlake City Rukan CBD Blok F No.23</h4>
+              <h4 className="desc-footer">Cipondoh, Tangerang</h4>
+            </div>
+          </div>
+          <div className="footer-social-media">
+            <h4 className="title-footer-social">Ikuti Kami :</h4>
+            <a href="#/" className="img-footer-social">
+              <img src={ImgInstagram} alt="Logo Instagram" />
+            </a>
+            <a href="#/" className="img-footer-social">
+              <img src={ImgFacebook} alt="Logo Facebook" />
+            </a>
+            <a href="#/" className="img-footer-social">
+              <img src={ImgYoutube} alt="Logo Youtube" />
+            </a>
+          </div>
+        </div>
+        <footer className="section-copyright">
+          <h3 className="title-copyright">© 2022 Hak Cipta Terpelihara Dana Ceria</h3>
+        </footer>
       </div>
     );
   }

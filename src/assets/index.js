@@ -11,4 +11,7 @@ import ImgRequest from './images/request.png';
 import ImgServer from './images/server.png';
 import ImgPerson from './images/person.png';
 import ImgBannerDown from './images/banner-down.png';
-export { Logo, LogoHeader, BgHero, ImgCardCar, ImgCardBus, ImgCardNew, ImgCardUsed, ImgBuilding, ImgRequest, ImgServer, ImgPrice, ImgPerson, ImgBannerDown };
+import ImgFacebook from './images/facebook.png';
+import ImgInstagram from './images/instagram.png';
+import ImgYoutube from './images/youtube.png';
+export { Logo, LogoHeader, BgHero, ImgCardCar, ImgCardBus, ImgCardNew, ImgCardUsed, ImgBuilding, ImgRequest, ImgServer, ImgPrice, ImgPerson, ImgBannerDown, ImgFacebook, ImgInstagram, ImgYoutube };

@@ -40,7 +40,7 @@ button {
   position: fixed;
   top: 0;
   left: 0;
-  z-index: 100;
+  z-index: 1000;
   padding: 14px 65px;
 }
 
@@ -508,4 +508,74 @@ button {
 
 .check-green {
   color: #1ccf23;
+}
+
+/* Section Footer */
+.section-footer {
+  padding: 40px 80px;
+  background: #ffffff;
+}
+
+.container-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+}
+
+.img-footer {
+  height: 94px;
+}
+
+.footer-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.title-footer {
+  color: #107096;
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.desc-footer {
+  color: #107096;
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 3px;
+}
+
+.footer-social-media {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.title-footer-social {
+  color: #107096;
+  font-size: 18px;
+  font-weight: bold;
+  margin-right: 25px;
+}
+
+.img-footer-social {
+  margin-right: 25px;
+}
+
+/* Section Copyright */
+.section-copyright {
+  background: #107096;
+  height: 72px;
+  padding: 40px 80px;
+  display: flex;
+  align-items: center;
+}
+
+.title-copyright {
+  font-size: 18px;
+  font-weight: 700;
+  color: #ffffff;
 }
