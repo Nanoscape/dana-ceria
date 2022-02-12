@@ -2,13 +2,14 @@ import React, { Component } from 'react';
 import { LogoHeader, BgHero, ImgCardCar, ImgCardBus, ImgCardNew, ImgCardUsed, ImgBuilding, ImgRequest, ImgServer, ImgPrice, ImgPerson, ImgBannerDown, ImgFacebook, ImgInstagram, ImgYoutube } from '../assets';
 import '../assets/css/dashboard.css';
 import { CardFaq, CardProduct } from '../components';
+import Navbar from '../components/Navbar';
 
 export default class Dashboard extends Component {
   render() {
     return (
       <div>
         {/* Header Navbar */}
-        <header className="header">
+        {/* <header className="header">
           <nav className="nav">
             <a href="/#" className="nav__logo">
               <img src={LogoHeader} alt="Logo" className="nav__logoimg" />
@@ -35,13 +36,12 @@ export default class Dashboard extends Component {
                 </a>
               </li>
               <li className="nav__item">
-                <a href="/#" class="nav__link">
-                  Agent Dana Ceria
-                </a>
+                <Link to='/agent' >Agent Dana Ceria</Link>
               </li>
             </ul>
           </nav>
-        </header>
+        </header> */}
+        <Navbar />
         {/* Section Hero */}
         <div className="section__hero">
           <div className="desc-hero-wrapper">
