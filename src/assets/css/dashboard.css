@@ -85,8 +85,9 @@ button {
 /* Section Hero */
 .section__hero {
   background-image: url('../images/bgjumbotron.png');
+  background-size: cover;
   box-shadow: 0px 4px 5px 0px rgba(0, 0, 0, 0.75);
-  height: 778px;
+  height: 100vh;
   padding: 0 65px;
   display: flex;
   align-items: center;
