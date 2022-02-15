@@ -1,5 +1,31 @@
 import React, { Component } from 'react';
-import { LogoHeader, BgHero, ImgCardCar, ImgCardBus, ImgCardNew, ImgCardUsed, ImgBuilding, ImgRequest, ImgServer, ImgPrice, ImgPerson, ImgBannerDown, ImgFacebook, ImgInstagram, ImgYoutube } from '../assets';
+import {
+  LogoHeader,
+  BgHero,
+  ImgCardCar,
+  ImgCardBus,
+  ImgCardNew,
+  ImgCardUsed,
+  ImgBuilding,
+  ImgRequest,
+  ImgServer,
+  ImgPrice,
+  ImgPerson,
+  ImgBannerDown,
+  ImgFacebook,
+  ImgInstagram,
+  ImgYoutube,
+  ImgSinarmas,
+  ImgWom,
+  ImgSms,
+  ImgAdira,
+  ImgMnc,
+  ImgVerena,
+  ImgNsc,
+  ImgTrihamas,
+  ImgJaccs,
+  ImgBfi,
+} from '../assets';
 import '../assets/css/dashboard.css';
 import { CardFaq, CardProduct } from '../components';
 import Navbar from '../components/Navbar';
@@ -200,7 +226,46 @@ export default class Dashboard extends Component {
           </div>
         </div>
         {/* Image Banner Down */}
-        <img src={ImgBannerDown} alt="Banner Cicilan" />
+        <div className="bg-down-color">
+          <img src={ImgBannerDown} alt="Banner Cicilan" className="img-banner-down" />
+          {/* Section Mitra */}
+          <section id="mitra">
+            <h2>Mitra Kami</h2>
+            <div className="container-mitra">
+              <div className="card-mitra">
+                <img src={ImgSinarmas} alt="Logo Sinarmas" />
+              </div>
+              <div className="card-mitra">
+                <img src={ImgWom} alt="Logo Wom" />
+              </div>
+              <div className="card-mitra">
+                <img src={ImgSms} alt="Logo SMS" />
+              </div>
+              <div className="card-mitra">
+                <img src={ImgAdira} alt="Logo Adira" />
+              </div>
+              <div className="card-mitra">
+                <img src={ImgMnc} alt="Logo MNC" />
+              </div>
+              <div className="card-mitra">
+                <img src={ImgVerena} alt="Logo Verena" />
+              </div>
+              <div className="card-mitra">
+                <img src={ImgNsc} alt="Logo NSC" />
+              </div>
+              <div className="card-mitra">
+                <img src={ImgTrihamas} alt="Logo Trihamas" />
+              </div>
+              <div className="card-mitra">
+                <img src={ImgJaccs} alt="Logo Jaccs" />
+              </div>
+              <div className="card-mitra-1">
+                <img src={ImgBfi} alt="Logo BFI" className="img-bfi" />
+              </div>
+            </div>
+          </section>
+        </div>
+
         {/* Section Footer */}
         <div className="section-footer">
           <div className="container-footer">

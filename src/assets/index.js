@@ -14,4 +14,42 @@ import ImgBannerDown from './images/banner-down.png';
 import ImgFacebook from './images/facebook.png';
 import ImgInstagram from './images/instagram.png';
 import ImgYoutube from './images/youtube.png';
-export { Logo, LogoHeader, BgHero, ImgCardCar, ImgCardBus, ImgCardNew, ImgCardUsed, ImgBuilding, ImgRequest, ImgServer, ImgPrice, ImgPerson, ImgBannerDown, ImgFacebook, ImgInstagram, ImgYoutube };
+import ImgAdira from './images/adira.png';
+import ImgBfi from './images/bfi.png';
+import ImgJaccs from './images/jaccs.png';
+import ImgMnc from './images/mnc.png';
+import ImgNsc from './images/nsc.png';
+import ImgSinarmas from './images/sinarmas.png';
+import ImgSms from './images/sms.png';
+import ImgTrihamas from './images/trihamas.png';
+import ImgVerena from './images/verena.png';
+import ImgWom from './images/wom.png';
+
+export {
+  Logo,
+  LogoHeader,
+  BgHero,
+  ImgCardCar,
+  ImgCardBus,
+  ImgCardNew,
+  ImgCardUsed,
+  ImgBuilding,
+  ImgRequest,
+  ImgServer,
+  ImgPrice,
+  ImgPerson,
+  ImgBannerDown,
+  ImgFacebook,
+  ImgInstagram,
+  ImgYoutube,
+  ImgAdira,
+  ImgBfi,
+  ImgJaccs,
+  ImgMnc,
+  ImgNsc,
+  ImgSinarmas,
+  ImgSms,
+  ImgTrihamas,
+  ImgVerena,
+  ImgWom,
+};
