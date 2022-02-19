@@ -24,11 +24,13 @@ import ImgSms from './images/sms.png';
 import ImgTrihamas from './images/trihamas.png';
 import ImgVerena from './images/verena.png';
 import ImgWom from './images/wom.png';
+import ImgBannerHero from './images/banner-hero.png';
 
 export {
   Logo,
   LogoHeader,
   BgHero,
+  ImgBannerHero,
   ImgCardCar,
   ImgCardBus,
   ImgCardNew,
