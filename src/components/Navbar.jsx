@@ -11,13 +11,15 @@ export default function () {
         </a>
         <ul>
           <li>
-            <a href="/#">Home</a>
+            <a className="active" href="/#">
+              Home
+            </a>
           </li>
           <li>
-            <a href="/#">Tentang Dana Ceria</a>
+            <a href="/#about">Tentang Dana Ceria</a>
           </li>
           <li>
-            <a href="/#">Produk Kami</a>
+            <a href="/#product">Produk Kami</a>
           </li>
           <li>
             <a href="/#">Mitra Kami</a>
