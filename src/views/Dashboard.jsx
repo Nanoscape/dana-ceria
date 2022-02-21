@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { ImgBannerHero, ImgCardBus, ImgCardCar, ImgCardNew, ImgCardUsed, LogoHeader } from '../assets';
+import { ImgBannerHero, ImgCardBus, ImgCardCar, ImgCardNew, ImgCardUsed, LogoHeader, ImgTips, ImgServer, ImgPrice, ImgBuilding, ImgRequest } from '../assets';
 import '../assets/css/dashboard.css';
 import Navbar from '../components/Navbar';
 
@@ -66,6 +66,51 @@ export default class Dashboard extends Component {
             </div>
           </div>
         </section>
+
+        {/* Section FAQ */}
+        <section className="section" id="faq">
+          <h1 className="title-section">Mengapa harus melalui Dana Ceria?</h1>
+          <div className="container-faq">
+            <div className="card-primary-faq">
+              <div className="circle-primary-faq">
+                <img src={ImgServer} alt="Server" />
+              </div>
+              <h3>Proses mudah dan cepat</h3>
+              <div className="desc-primary-faq">
+                <p>Cuman Butuh Waktu 10 Menit dan Foto Berkas Persyaratan Dana Langsung Cair</p>
+              </div>
+            </div>
+
+            <div className="card-faq">
+              <div className="circle-faq">
+                <img src={ImgPrice} alt="Server" />
+              </div>
+              <h3>Di bantu cair sampai deal</h3>
+              <p>Kami Bantu Carikan Hitungan Yang Cocok Untuk Anda Sampai Deal</p>
+            </div>
+
+            <div className="card-faq">
+              <div className="circle-faq">
+                <img src={ImgBuilding} alt="Server" />
+              </div>
+              <h3>Banyak pilihan leasing</h3>
+              <p>Pilihan Leasing Terbanyak Di Indonesia dan Dipilihkan Leasing Yang Bisa Take Over</p>
+            </div>
+
+            <div className="card-faq">
+              <div className="circle-faq">
+                <img src={ImgRequest} alt="Server" />
+              </div>
+              <h3>Bunga Paling Rendah</h3>
+              <p>Dipilihkan Bunga Paling Rendah Hingga 0,8% dan Dipilihkan Pencairan Paling Tinggi</p>
+            </div>
+          </div>
+        </section>
+
+        {/* Iamge Tips */}
+        <div className="img-tips">
+          <img src={ImgTips} alt="Tips" />
+        </div>
       </div>
     );
   }

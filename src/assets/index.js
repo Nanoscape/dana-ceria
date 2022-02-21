@@ -25,6 +25,7 @@ import ImgTrihamas from './images/trihamas.png';
 import ImgVerena from './images/verena.png';
 import ImgWom from './images/wom.png';
 import ImgBannerHero from './images/banner-hero.png';
+import ImgTips from './images/tips.png';
 
 export {
   Logo,
@@ -54,4 +55,5 @@ export {
   ImgTrihamas,
   ImgVerena,
   ImgWom,
+  ImgTips,
 };
