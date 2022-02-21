@@ -26,6 +26,7 @@ import ImgVerena from './images/verena.png';
 import ImgWom from './images/wom.png';
 import ImgBannerHero from './images/banner-hero.png';
 import ImgTips from './images/tips.png';
+import ImgModal from './images/modal.png';
 
 export {
   Logo,
@@ -56,4 +57,5 @@ export {
   ImgVerena,
   ImgWom,
   ImgTips,
+  ImgModal,
 };

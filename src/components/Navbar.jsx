@@ -2,7 +2,7 @@ import React from 'react';
 import { LogoHeader } from '../assets';
 import '../assets/css/dashboard.css';
 
-export default function () {
+export default function Navbar() {
   return (
     <header>
       <nav>
@@ -22,7 +22,7 @@ export default function () {
             <a href="/#product">Produk Kami</a>
           </li>
           <li>
-            <a href="/#">Mitra Kami</a>
+            <a href="/#mitra">Mitra Kami</a>
           </li>
           <li>
             <a href="/#">Agent Kami</a>

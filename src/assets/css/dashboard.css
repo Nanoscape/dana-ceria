@@ -44,6 +44,19 @@ button {
   margin-top: 20px;
 }
 
+.bg-color-section {
+  background-color: #e6f6f6;
+}
+
+.active {
+  color: #107096;
+  font-weight: 800;
+}
+
+.ic-green {
+  color: #1ccf23;
+}
+
 /* Header */
 header {
   position: fixed;
@@ -84,11 +97,6 @@ nav ul li a {
   font-size: 16px;
   margin-top: 20px;
   color: rgba(0, 0, 0, 0.5);
-}
-
-.active {
-  color: #107096;
-  font-weight: 800;
 }
 
 /* Section Hero */
@@ -282,4 +290,240 @@ nav ul li a {
 
 .img-tips img {
   width: 100%;
+}
+
+/* Section Condition */
+#condition h1 {
+  color: #107096;
+  text-align: center;
+}
+
+.container-condition {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.card-condition {
+  width: 555px;
+  height: 521px;
+  background: #ffffff;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+  overflow: hidden;
+  margin-top: 2rem;
+}
+
+.card-condition h3 {
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 60px;
+  color: #000000;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-bottom: 5px solid #107096;
+}
+
+.card-condition span {
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 40px;
+  color: #107096;
+}
+
+.banner-down {
+  width: 100%;
+  margin-top: 6rem;
+}
+
+/* Section Modal */
+#modal {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 6rem;
+}
+
+.container-modal {
+  width: 850px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title-modal {
+  width: 749px;
+  padding-right: 3rem;
+  margin-bottom: 2rem;
+}
+
+.title-modal h2 {
+  font-size: 35px;
+  line-height: 41px;
+  font-weight: 700;
+  color: #000000;
+  text-align: center;
+}
+
+.title-modal h4 {
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 33px;
+  color: #000000;
+  text-align: right;
+}
+
+.title-modal h4 span {
+  font-weight: 700;
+  color: #107096;
+}
+
+.container-modal img {
+  width: 100%;
+}
+
+.container-modal h3 {
+  font-size: 28px;
+  line-height: 33px;
+  font-weight: 400;
+  color: #000000;
+  margin-top: 4rem;
+}
+
+.container-modal button {
+  width: 246px;
+  font-size: 28px;
+  font-weight: 700;
+  color: #f6fa35;
+  background: #107096;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  text-align: center;
+  padding: 0.5rem;
+  margin-top: 3rem;
+}
+
+/* Section Mitra */
+#mitra h2 {
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.container-mitra {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.card-mitra {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 250px;
+  background: #ffffff;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  padding: 20px;
+  height: 113px;
+  margin-top: 2rem;
+}
+
+.card-mitra img {
+  width: 100%;
+}
+
+.card-mitra-1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 250px;
+  background: #ffffff;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  padding: 20px;
+  height: 113px;
+  margin-top: 2rem;
+}
+
+.card-mitra-1 img {
+  height: 100%;
+}
+
+.card-mitra:hover,
+.card-mitra-1:hover {
+  transform: scale(1.1);
+  background-color: #6be2e6;
+  transition: all 0.3s ease;
+}
+
+/* Section Footer */
+.section-footer {
+  padding: 40px 80px;
+  background: #ffffff;
+  margin-top: 5rem;
+}
+
+.container-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+}
+
+.img-footer {
+  height: 94px;
+}
+
+.footer-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.title-footer {
+  color: #107096;
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.desc-footer {
+  color: #107096;
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 3px;
+}
+
+.footer-social-media {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.title-footer-social {
+  color: #107096;
+  font-size: 18px;
+  font-weight: bold;
+  margin-right: 25px;
+}
+
+.img-footer-social {
+  margin-right: 25px;
+}
+
+footer {
+  width: 100%;
+  height: 63px;
+  background: #107096;
+  font-size: 18px;
+  font-weight: 700;
+  padding: 0 4rem;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
 }
