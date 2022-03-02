@@ -206,7 +206,7 @@ export default class Dashboard extends Component {
               </div>
               <img src={ImgModal} alt="Modal" />
               <h3>
-                Kamu Bisa Dapatkan <span className="active">Modal</span> Hingga<span className="active">2 MILIYAR</span>
+                Kamu Bisa Dapatkan <span className="active">Modal</span> Hingga<span className="active"> 2 MILIYAR</span>
               </h3>
               <button>Ajukan Sekarang</button>
             </div>
@@ -286,7 +286,7 @@ export default class Dashboard extends Component {
               </div>
             </div>
             <div className="footer-social-media">
-              <h4 className="title-footer-social">Ikuti Kami :</h4>
+              <span className="title-footer-social">Ikuti Kami :</span>
               <a href="/#" className="img-footer-social">
                 <img src={ImgInstagram} alt="Logo Instagram" />
               </a>

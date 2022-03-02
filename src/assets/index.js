@@ -27,6 +27,7 @@ import ImgWom from './images/wom.png';
 import ImgBannerHero from './images/banner-hero.png';
 import ImgTips from './images/tips.png';
 import ImgModal from './images/modal.png';
+import ImgNotFound from './images/notfound.png';
 
 export {
   Logo,
@@ -58,4 +59,5 @@ export {
   ImgWom,
   ImgTips,
   ImgModal,
+  ImgNotFound,
 };

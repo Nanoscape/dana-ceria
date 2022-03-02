@@ -4,31 +4,33 @@ import '../assets/css/dashboard.css';
 
 export default function Navbar() {
   return (
-    <header>
-      <nav>
-        <a href="/#" className="nav__logo">
-          <img src={LogoHeader} alt="Logo" />
-        </a>
-        <ul>
-          <li>
-            <a className="active" href="/#">
-              Home
-            </a>
-          </li>
-          <li>
-            <a href="/#about">Tentang Dana Ceria</a>
-          </li>
-          <li>
-            <a href="/#product">Produk Kami</a>
-          </li>
-          <li>
-            <a href="/#mitra">Mitra Kami</a>
-          </li>
-          <li>
-            <a href="/#">Agent Kami</a>
-          </li>
-        </ul>
-      </nav>
-    </header>
+    <nav>
+      <a href="/#" className="nav__logo">
+        <img src={LogoHeader} alt="Logo" />
+      </a>
+      <input className="menu-btn" id="menu-btn" type="checkbox" />
+      <label className="menu-icon" for="menu-btn">
+        <span className="nav-icon"></span>
+      </label>
+      <ul className="menu">
+        <li>
+          <a className="active" href="/#">
+            Home
+          </a>
+        </li>
+        <li>
+          <a href="/#about">Tentang Dana Ceria</a>
+        </li>
+        <li>
+          <a href="/#product">Produk Kami</a>
+        </li>
+        <li>
+          <a href="/#mitra">Mitra Kami</a>
+        </li>
+        <li>
+          <a href="/#">Agent Kami</a>
+        </li>
+      </ul>
+    </nav>
   );
 }
