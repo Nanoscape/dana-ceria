@@ -28,7 +28,7 @@ export default function Navbar() {
           <a href="/#mitra">Mitra Kami</a>
         </li>
         <li>
-          <a href="/#">Agent Kami</a>
+          <a href="/agent">Agent Kami</a>
         </li>
       </ul>
     </nav>
