@@ -147,47 +147,47 @@ export default class Dashboard extends Component {
               <div className="card-condition">
                 <h3>Pinjaman jaminan BPKB Mobil</h3>
                 <span>
-                  <i class="bx bx-check ic-green"></i> KTP
+                  <i className="bx bx-check ic-green"></i> KTP
                 </span>
                 <span>
-                  <i class="bx bx-check ic-green"></i> KTP Pasangan (jika ada)
+                  <i className="bx bx-check ic-green"></i> KTP Pasangan (jika ada)
                 </span>
                 <span>
-                  <i class="bx bx-check ic-green"></i> Kartu Keluarga
+                  <i className="bx bx-check ic-green"></i> Kartu Keluarga
                 </span>
                 <span>
-                  <i class="bx bx-check ic-green"></i> NPWP
+                  <i className="bx bx-check ic-green"></i> NPWP
                 </span>
                 <span>
-                  <i class="bx bx-check ic-green"></i> PBB/Surat Kepemilikan Rumah
+                  <i className="bx bx-check ic-green"></i> PBB/Surat Kepemilikan Rumah
                 </span>
                 <span>
-                  <i class="bx bx-check ic-green"></i> Slip gaji (Karyawan)
+                  <i className="bx bx-check ic-green"></i> Slip gaji (Karyawan)
                 </span>
                 <span>
-                  <i class="bx bx-check ic-green"></i> Surat Keterangan Usaha
+                  <i className="bx bx-check ic-green"></i> Surat Keterangan Usaha
                 </span>
                 <span>
-                  <i class="bx bx-check ic-green"></i> Rekening Korang 3 Bulan Terakhir
+                  <i className="bx bx-check ic-green"></i> Rekening Korang 3 Bulan Terakhir
                 </span>
               </div>
 
               <div className="card-condition">
                 <h3>Pinjaman jaminan BPKB Motor</h3>
                 <span>
-                  <i class="bx bx-check ic-green"></i> KTP
+                  <i className="bx bx-check ic-green"></i> KTP
                 </span>
                 <span>
-                  <i class="bx bx-check ic-green"></i> KTP Pasangan (jika ada)
+                  <i className="bx bx-check ic-green"></i> KTP Pasangan (jika ada)
                 </span>
                 <span>
-                  <i class="bx bx-check ic-green"></i> Kartu Keluarga
+                  <i className="bx bx-check ic-green"></i> Kartu Keluarga
                 </span>
                 <span>
-                  <i class="bx bx-check ic-green"></i> Rekening Listrik
+                  <i className="bx bx-check ic-green"></i> Rekening Listrik
                 </span>
                 <span>
-                  <i class="bx bx-check ic-green"></i> Slip gaji (Karyawan)
+                  <i className="bx bx-check ic-green"></i> Slip gaji (Karyawan)
                 </span>
               </div>
             </div>

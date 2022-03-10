@@ -1,6 +1,6 @@
 import React from 'react';
 import { LogoHeader } from '../assets';
-import '../assets/css/dashboard.css';
+import '../assets/css/navbar.css';
 
 export default function Navbar() {
   return (
@@ -9,7 +9,7 @@ export default function Navbar() {
         <img src={LogoHeader} alt="Logo" />
       </a>
       <input className="menu-btn" id="menu-btn" type="checkbox" />
-      <label className="menu-icon" for="menu-btn">
+      <label className="menu-icon" htmlFor="menu-btn">
         <span className="nav-icon"></span>
       </label>
       <ul className="menu">
