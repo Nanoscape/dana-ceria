@@ -1,11 +1,14 @@
 import React from 'react';
 import { LogoHeader } from '../assets';
 import '../assets/css/navbar.css';
+import { Link, useLocation } from 'react-router-dom';
 
 export default function Navbar() {
+  const location = useLocation();
+
   return (
     <nav>
-      <a href="/#" className="nav__logo">
+      <a href="/" className="nav__logo">
         <img src={LogoHeader} alt="Logo" />
       </a>
       <input className="menu-btn" id="menu-btn" type="checkbox" />
@@ -14,9 +17,9 @@ export default function Navbar() {
       </label>
       <ul className="menu">
         <li>
-          <a className="active" href="/#">
+          <Link to="/" className={`${location.pathname === '/' ? 'active' : null}`}>
             Home
-          </a>
+          </Link>
         </li>
         <li>
           <a href="/#about">Tentang Dana Ceria</a>
@@ -28,7 +31,9 @@ export default function Navbar() {
           <a href="/#mitra">Mitra Kami</a>
         </li>
         <li>
-          <a href="/agent">Agent Kami</a>
+          <Link to="/agent" className={`${location.pathname === '/agent' ? 'active' : null}`}>
+            Agent Kami
+          </Link>
         </li>
       </ul>
     </nav>

@@ -57,6 +57,22 @@ button {
   color: #1ccf23;
 }
 
+.popup-wa {
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  bottom: 15px;
+  right: 15px;
+  width: 50px;
+  height: 50px;
+  z-index: 1000;
+}
+
+.img-wa-popup {
+  width: 100%;
+}
+
 /* Section Hero */
 #hero {
   margin-top: 4rem;
@@ -352,7 +368,7 @@ button {
   margin-top: 4rem;
 }
 
-.container-modal button {
+.container-modal a {
   width: 246px;
   font-size: 28px;
   font-weight: 700;
@@ -646,6 +662,11 @@ footer {
 }
 
 @media screen and (max-width: 900px) {
+  .popup-wa {
+    width: 37px;
+    height: 37px;
+  }
+
   .title-section {
     font-size: 25px;
   }
@@ -735,7 +756,7 @@ footer {
     font-size: 23px;
   }
 
-  .container-modal button {
+  .container-modal a {
     width: 206px;
     font-size: 21px;
   }
@@ -804,11 +825,16 @@ footer {
     align-items: center;
     justify-content: center;
     font-size: 16px;
-    padding: 0.3rem;
+    padding: 0;
   }
 }
 
 @media screen and (max-width: 720px) {
+  .popup-wa {
+    width: 30px;
+    height: 30px;
+  }
+
   .section {
     padding: 0 1.5rem;
   }
@@ -901,7 +927,7 @@ footer {
     margin-top: 2rem;
   }
 
-  .container-modal button {
+  .container-modal a {
     width: 196px;
     font-size: 12px;
     margin-top: 2rem;

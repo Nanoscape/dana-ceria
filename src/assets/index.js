@@ -34,7 +34,10 @@ import ImgHandMoney from './images/hand-money.png';
 import ImgUserGroup from './images/user-group.png';
 import ImgUserModal from './images/user-modal.png';
 import ImgUserTestimoni from './images/user-testimoni.png';
+import ImgUserTestimoni1 from './images/user-testimoni1.png';
+import ImgUserTestimoni2 from './images/user-testimoni2.png';
 import ImgUserTimeline from './images/user-timeline.png';
+import ImgWhatsapp from './images/whatsapp.png';
 
 export {
   Logo,
@@ -73,5 +76,8 @@ export {
   ImgUserGroup,
   ImgUserModal,
   ImgUserTestimoni,
+  ImgUserTestimoni1,
+  ImgUserTestimoni2,
   ImgUserTimeline,
+  ImgWhatsapp,
 };
