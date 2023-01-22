@@ -37,7 +37,7 @@ export default class Dashboard extends Component {
       <div>
         <Navbar />
         <div className="popup-wa">
-          <a href="https://wa.me/6281311507051?text=Saya butuh bantuan Pinjaman Dana di Dana Ceria" target="_blank" rel="noopener">
+          <a href="https://wa.me/6281311507051?text=Saya butuh bantuan Pinjaman Dana di Dana Ceria" target="_blank" rel="noreferrer">
             <img src={ImgWhatsapp} alt="Logo Whatsapp" className="img-wa-popup" id="popupwa" />
           </a>
         </div>
@@ -214,7 +214,7 @@ export default class Dashboard extends Component {
               <h3>
                 Kamu Bisa Dapatkan <span className="active">Modal</span> Hingga<span className="active"> 2 MILIYAR</span>
               </h3>
-              <a href="https://wa.me/6281311507051?text=Saya butuh bantuan Pinjaman Dana di Dana Ceria" target="_blank" rel="noopener">
+              <a href="https://wa.me/6281311507051?text=Saya butuh bantuan Pinjaman Dana di Dana Ceria" target="_blank" rel="noreferrer">
                 Ajukan Sekarang
               </a>
             </div>
@@ -263,13 +263,13 @@ export default class Dashboard extends Component {
               <img src={LogoHeader} alt="Logo Dana Ceria" className="img-footer" />
               <div className="footer-wrapper">
                 <h4 className="title-footer">Tentang</h4>
-                <a href="/general" target="_blank" rel="noopener" className="desc-footer">
+                <a href="/general" target="_blank" rel="noreferrer" className="desc-footer">
                   General
                 </a>
-                <a href="/terms" target="_blank" rel="noopener" className="desc-footer">
+                <a href="/terms" target="_blank" rel="noreferrer" className="desc-footer">
                   Kebijakan & Keamanan
                 </a>
-                <a href="/condition" target="_blank" rel="noopener" className="desc-footer">
+                <a href="/condition" target="_blank" rel="noreferrer" className="desc-footer">
                   Syarat & Ketentuan
                 </a>
               </div>
@@ -278,10 +278,10 @@ export default class Dashboard extends Component {
                 <a href="/#mitra" className="desc-footer">
                   Mitra Kami
                 </a>
-                <a href="/agent" target="_blank" rel="noopener" className="desc-footer">
+                <a href="/agent" target="_blank" rel="noreferrer" className="desc-footer">
                   Agen Kami
                 </a>
-                <a href="https://wa.me/6281311507051?text=Saya butuh bantuan Pinjaman Dana di Dana Ceria" className="desc-footer" target="_blank" rel="noopener">
+                <a href="https://wa.me/6281311507051?text=Saya butuh bantuan Pinjaman Dana di Dana Ceria" className="desc-footer" target="_blank" rel="noreferrer">
                   Tanya Kami
                 </a>
               </div>
